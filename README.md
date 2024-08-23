@@ -12,6 +12,9 @@ Accurate short-term wind speed prediction is crucial for maintaining the safe, s
 ## Installation
 
 ```
+conda create -n wpn python=3.8
+conda activate wpn
+
 pip install -r requirements.txt
 ```
 
