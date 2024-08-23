@@ -15,7 +15,7 @@ Accurate short-term wind speed prediction is crucial for maintaining the safe, s
 conda create -n wpn python=3.8
 conda activate wpn
 git clone https://github.com/Zhang-zongwei/MF-WPN.git
-
+cd MF-WPN
 pip install -r requirements.txt
 ```
 
