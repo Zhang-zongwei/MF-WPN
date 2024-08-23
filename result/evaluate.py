@@ -40,9 +40,9 @@ def weighted_acc(y_pred,y_true):
     return ACC
 
 ###输入预测值与真实值
-y_pred = np.load(r'result/pred_w.npy')
+y_pred = np.load(r'w_pred.npy')
 y_pred = y_pred[:,:,None]
-y_true = np.load(r'result/true_w.npy')
+y_true = np.load(r'w_true.npy')
 y_true = y_true[:,:,None]
 
 
