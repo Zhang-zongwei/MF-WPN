@@ -48,6 +48,7 @@ python test.py
 
 Note that the predictions are obtained as npy files containing u, v variables, which need to be converted to wind speed results using: 
 ```
+cd result
 python uv_to_wind.py
 ```
 After that, we can obtain the wind speed prediction evaluation result by:
